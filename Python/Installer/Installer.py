@@ -83,6 +83,7 @@ if int(inputMain) == 4:
 
 
     if int(inputMain) == 5:
+        #tool-x installer
         InputUpdate = input("update system? \n")
         if InputUpdate == "yes":
             os.system('sudo apt update && sudo apt upgrade')
