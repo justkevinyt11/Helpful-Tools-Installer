@@ -6,3 +6,4 @@ Step 4: cd Python
 Step 5: cd Installer
 Step 6: chmod +x Installer.sh
 Step 7: ./Installer.sh
+(I am not responsible for anything you do with these tools)
