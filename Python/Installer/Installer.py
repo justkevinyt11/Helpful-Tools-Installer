@@ -106,6 +106,7 @@ if int(inputMain) == 4:
             os.system('python3 Installer.py')
 
 if int(inputMain) == 6:
+    #neofetch Installer
     InputUpdate = input("update system? \n")
     if InputUpdate == "yes":
         os.system('sudo apt update && sudo apt upgrade')
