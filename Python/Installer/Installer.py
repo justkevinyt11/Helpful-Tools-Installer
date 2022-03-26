@@ -4,11 +4,11 @@ def main():
 
     os.system('clear')
     print("tools")
-    print("1. OneX")
+    print("1. OneX (hacking tools)")
     print("2. VsCode")
     print("3. Obs")
     print("4. HTop")
-    print("5. Tool-X")
+    print("5. Tool-X (hacking tools)")
     print("6. Neofetch")
     print("X. Exit")
 
