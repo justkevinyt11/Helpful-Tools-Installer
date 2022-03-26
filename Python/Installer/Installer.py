@@ -5,7 +5,7 @@ def main():
     os.system('clear')
     print("tools")
     print("1. OneX (hacking tools)")
-    print("2. VsCode")
+    print("2. VsCode (This works on some os's, but not all)")
     print("3. Obs")
     print("4. HTop")
     print("5. Tool-X (hacking tools)")
@@ -83,27 +83,27 @@ if int(inputMain) == 4:
         os.system('python3 Installer.py')
 
 
-    if int(inputMain) == 5:
-        #tool-x installer
-        InputUpdate = input("update system? \n")
-        if InputUpdate == "yes":
-            os.system('sudo apt update && sudo apt upgrade')
-        else:
-            pass
-        os.system('sudo apt install git')
-        os.system('git clone https://github.com/rajkumardusad/Tool-X.git')
-        os.system('cd Tool-X')
-        os.system('chmod +x install')
-        askOpen = input("start Tool-X installer? \n")
-        if askOpen == "yes":
-            os.system('./install')
-        else:
-            pass
-        AskClose = input("close installer? \n")
-        if AskClose == "yes":
-            exit()
-        else:
-            os.system('python3 Installer.py')
+if int(inputMain) == 5:
+    #tool-x installer
+    InputUpdate = input("update system? \n")
+    if InputUpdate == "yes":
+        os.system('sudo apt update && sudo apt upgrade')
+    else:
+        pass
+    os.system('sudo apt install git')
+    os.system('git clone https://github.com/rajkumardusad/Tool-X.git')
+    os.system('cd Tool-X')
+    os.system('chmod +x install')
+    askOpen = input("start Tool-X installer? \n")
+    if askOpen == "yes":
+        os.system('./install')
+    else:
+        pass
+    AskClose = input("close installer? \n")
+    if AskClose == "yes":
+        exit()
+    else:
+        os.system('python3 Installer.py')
 
 if int(inputMain) == 6:
     #neofetch Installer
