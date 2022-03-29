@@ -5,7 +5,7 @@ def main():
     os.system('clear')
     print("tools")
     print("1. OneX (hacking tools)")
-    print("2. VsCode (This works on some os's, but not all)")
+    print("2. VsCode (Uses snap)")
     print("3. Obs")
     print("4. HTop")
     print("5. Tool-X (hacking tools)")
@@ -47,7 +47,8 @@ if int(inputMain) == 2:
         os.system('sudo apt update && sudo apt upgrade')
     else:
         pass
-    os.system('sudo apt install com.visualstudio.code')
+    os.system('sudo apt install snap')
+    os.system('sudo snap install code --classic')
     AskClose = input("close installer? \n")
     if AskClose == "yes":
         exit()
