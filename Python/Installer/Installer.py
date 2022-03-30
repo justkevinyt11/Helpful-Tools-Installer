@@ -47,7 +47,7 @@ if int(inputMain) == 2:
         os.system('sudo apt update && sudo apt upgrade')
     else:
         pass
-    os.system('sudo apt install snap')
+    os.system('sudo apt install snapd')
     os.system('sudo snap install code --classic')
     AskClose = input("close installer? \n")
     if AskClose == "yes":
